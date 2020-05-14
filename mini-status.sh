@@ -47,7 +47,9 @@ mini_status(){
       
       nohup mini-status -a ${ip} -u /status -p ${mima} &
     fi
-    echo -e "请在小程序中填写接口地址：${ip}/status Password:${mima}"
+    echo -e "请在小程序中填写以下内容："
+    echo -e "接口地址：${ip}/status "
+    echo -e "Password:${mima}"
 
 }
     
